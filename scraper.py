@@ -49,7 +49,7 @@ def scrape_first_20_books(url: str = "http://books.toscrape.com/"):
                     rating = RATING_MAP[c]
                     break
 
-        # Save record to database
+        # Save record to database.
         book = db_manager.create_book(
             title=title,
             price=price,

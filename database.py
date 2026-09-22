@@ -14,7 +14,7 @@ class BookDatabaseManager:
         conn.row_factory = sqlite3.Row
         return conn
 
-    # Create books table if not exists
+    # Create books table if not exists.
     def create_table(self) -> None:
         with self.get_connection() as conn:
             cursor = conn.cursor()

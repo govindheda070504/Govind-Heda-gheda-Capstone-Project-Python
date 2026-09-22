@@ -3,5 +3,6 @@ requests
 fastapi
 uvicorn
 pandas
-matplotlib
 pydantic
+matplotlib
+

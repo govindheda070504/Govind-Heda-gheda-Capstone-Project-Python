@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 API_URL = "http://127.0.0.1:8000/books"
 
-# Client runner
+# Client runner.
 def run_client():
     print(f"Fetching books from FastAPI endpoint: {API_URL}")
     try:
