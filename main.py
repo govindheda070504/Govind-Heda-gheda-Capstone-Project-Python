@@ -94,3 +94,9 @@ def delete_book(book_id: int):
             detail=f"Book with ID {book_id} not found"
         )
     return {"message": f"Book with ID {book_id} deleted successfully"}
+
+# Main execution entry point
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+
