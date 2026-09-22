@@ -1,0 +1,7 @@
+beautifulsoup4
+requests
+fastapi
+uvicorn
+pandas
+matplotlib
+pydantic
